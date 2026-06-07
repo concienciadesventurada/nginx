@@ -32,7 +32,6 @@ este proyecto bebe directamente del titanico trabajo de [mitchell krog](mitchell
 
 en gran parte, bloquea practicamente muchas cosas que [nginx bad bot blocker](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker).
 
-
 para cualquier modificacion de esta plantilla, los contenidos del directorio `bots.d` son el punto de entrada, pero en la practica, todas ellas son leidas y aplicadas antes que las `conf.d/globalblacklist.conf`:
 
 - `blockbots.conf`: de los `map` que contienen todo el resto de .confs en el `http` scope, este archivo contiene la logica que nginx va a aplicar;
